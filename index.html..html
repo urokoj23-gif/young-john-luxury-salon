@@ -1,0 +1,413 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Young John Luxury Salon</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background: #000;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid gold;
+}
+
+header h1 {
+    color: gold;
+    font-size: 28px;
+}
+
+header p {
+    color: white;
+    font-size: 14px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/* HERO SECTION */
+.hero {
+    min-height: 430px;
+    background: linear-gradient(
+        rgba(0,0,0,0.65),
+        rgba(0,0,0,0.85)
+    ), url("Image.jpg") center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.hero h2 {
+    color: gold;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: gold;
+    color: black;
+    padding: 13px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: white;
+}
+
+/* GENERAL SECTIONS */
+section {
+    padding: 55px 20px;
+    text-align: center;
+}
+
+.section-title {
+    color: gold;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+/* ABOUT */
+.about p {
+    max-width: 750px;
+    margin: auto;
+}
+
+/* SERVICES */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    background: #222;
+    border: 1px solid gold;
+    border-radius: 10px;
+    padding: 25px;
+    width: 230px;
+}
+
+.service h3 {
+    color: gold;
+    margin-bottom: 10px;
+}
+
+/* PRICE LIST */
+.price-container {
+    max-width: 650px;
+    margin: auto;
+    background: #222;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px 5px;
+    border-bottom: 1px solid #555;
+}
+
+.price {
+    color: gold;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* GALLERY */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery-container img {
+    width: 280px;
+    height: 210px;
+    object-fit: cover;
+    border: 2px solid gold;
+    border-radius: 8px;
+}
+
+/* CONTACT */
+.contact {
+    background: #1b1b1b;
+}
+
+.contact p {
+    margin: 12px;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    padding: 25px;
+    text-align: center;
+    border-top: 2px solid gold;
+}
+
+footer span {
+    color: gold;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 23px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .hero h2 {
+        font-size: 29px;
+    }
+
+    .price-item {
+        font-size: 14px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>YOUNG JOHN LUXURY SALON</h1>
+    <p>Your Beauty, Our Passion</p>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#prices">Prices</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HOME -->
+<div class="hero" id="home">
+    <h2>Welcome to Young John Luxury Salon</h2>
+    <p>Professional Haircuts, Grooming and Styling.</p>
+
+    <a class="btn"
+       href="https://wa.me/2349030342808?text=Hello%20Young%20John%20Luxury%20Salon%2C%20I%20want%20to%20book%20an%20appointment."
+       target="_blank">
+       BOOK YOUR HAIRCUT
+    </a>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <h2 class="section-title">About Us</h2>
+
+    <p>
+        Welcome to Young John Luxury Salon, your trusted
+        destination for professional haircuts and grooming.
+        We are committed to giving every customer a
+        comfortable experience and a fresh, confident look.
+        Your satisfaction is our priority.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services-container">
+
+        <div class="service">
+            <h3>Classic Haircut</h3>
+            <p>Clean and professional haircut.</p>
+        </div>
+
+        <div class="service">
+            <h3>Fade Haircut</h3>
+            <p>Fresh and stylish fade haircut.</p>
+        </div>
+
+        <div class="service">
+            <h3>Beard Trimming</h3>
+            <p>Professional beard grooming.</p>
+        </div>
+
+        <div class="service">
+            <h3>Beard Sculpting</h3>
+            <p>Neat and well-shaped beard.</p>
+        </div>
+
+        <div class="service">
+            <h3>Scalp Massage</h3>
+            <p>Relaxing scalp care experience.</p>
+        </div>
+
+        <div class="service">
+            <h3>Haircut + Beard</h3>
+            <p>Complete grooming package.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PRICE LIST -->
+<section id="prices">
+    <h2 class="section-title">Our Price List</h2>
+
+    <div class="price-container">
+
+        <div class="price-item">
+            <span>Classic Haircut</span>
+            <span class="price">₦2,000</span>
+        </div>
+
+        <div class="price-item">
+            <span>Fade Haircut</span>
+            <span class="price">₦3,000</span>
+        </div>
+
+        <div class="price-item">
+            <span>Beard Trimming</span>
+            <span class="price">₦1,000</span>
+        </div>
+
+        <div class="price-item">
+            <span>Beard Sculpting</span>
+            <span class="price">₦1,500</span>
+        </div>
+
+        <div class="price-item">
+            <span>Scalp Massage</span>
+            <span class="price">₦2,000</span>
+        </div>
+
+        <div class="price-item">
+            <span>Haircut + Beard Trim</span>
+            <span class="price">₦3,500</span>
+        </div>
+
+    </div>
+
+    <p style="margin-top:20px;color:gold;">
+        Quality Service at Affordable Prices!
+    </p>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+    <h2 class="section-title">Our Gallery</h2>
+
+    <div class="gallery-container">
+        <img src="Image.jpg" alt="Young John Luxury Salon haircut" width="300">
+
+        <img src="Image.jpg"
+             alt="Young John Salon haircut">
+
+        <img src="Image.jpg"
+             alt="Professional barber service">
+
+        <img src="Image.jpg"
+             alt="Luxury salon grooming">
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+
+    <p><strong>Business:</strong> Young John Luxury Salon</p>
+
+    <p><strong>Address:</strong>
+    Iduta Camp, along Idaneri Road, Akure.</p>
+
+    <p><strong>Phone:</strong> 09030342808</p>
+
+    <p><strong>Alternative Phone:</strong> 09134957206</p>
+
+    <p>
+        <a class="btn"
+           href="https://wa.me/2349030342808"
+           target="_blank">
+           Chat with Us on WhatsApp
+        </a>
+    </p>
+
+    <p>
+        <a class="btn"
+           href="https://www.google.com/maps/search/?api=1&query=Iduta+Camp+Akure"
+           target="_blank">
+           Find Our Location
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>
+        © 2026 <span>Young John Luxury Salon</span>.
+        All Rights Reserved.
+    </p>
+
+    <p>Your Beauty, Our Passion.</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1>
+    
+  
+
+
