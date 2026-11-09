@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Young John Luxury Salon</title>
+
+    <style>
+        body {
+            background-color: #111111;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: gold;
+        }
+
+        img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        ul {
+            display: inline-block;
+            text-align: left;
+            line-height: 2;
+        }
+
+        a {
+            color: gold;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to Young John Luxury Salon</h1>
+
+    <p>Your beauty, our passion. We give you the perfect look.</p>
+
+    <h2>Our Haircut Gallery</h2>
+
+    <img src="Kind.jpg" alt="Young John Salon Haircut">
+
+    <h2>Our Location</h2>
+    <p>Iduta Camp, along Idaneri Road, Akure.</p>
+
+    <h2>Our Services & Price List</h2>
+
+    <ul>
+        <li>Adult Haircut - ₦1,000</li>
+        <li>Children's Haircut - ₦700</li>
+        <li>Stylist Haircut - ₦1,500</li>
+        <li>Shaving - ₦700</li>
+        <li>Home Service - ₦4,000</li>
+    </ul>
+
+    <h2>Contact Us</h2>
+
+    <p>Phone: 09030342808</p>
+    <p>Phone: 09134957206</p>
+
+    <a href="https://api.whatsapp.com/send?phone=2349030342808" target="_blank">
+        Chat with us on WhatsApp
+    </a>
+
+</body>
+</html>
+
